@@ -30,3 +30,82 @@ color: #FFFFFF;
     height: 24px;
     margin-right: 7px;
 }
+
+/* Card stylization  */
+
+.card {
+    display: flex;
+    width: 80vh;
+    min-height: 150px;
+    margin: 20px 40px 20px 40px;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 20px;
+    
+
+}
+
+
+.card:nth-child(1) {
+    margin-top: 35px;
+}
+
+.card-img {
+    width: 125px;
+height: 168px;
+border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+.pin {
+    width: 100%;
+height: 100%;
+margin-left: 19px;
+
+}
+
+.country {
+    font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.17em;
+margin-left: 4px;
+margin-right: 12px;
+color: #2B283A;
+}
+
+.maps{
+    text-decoration-line: underline;
+    color: #918E9B;
+    font-size: 12px;
+    line-height: 12px;
+
+}
+
+.place {
+    font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+margin: 7px 0 7px 4px;
+}
+
+.date {
+    font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+
+color: #2B283A;
+margin: 12px 0 9px
+}
+
+.description {
+    max-width: 60vw;
+    font-size: 12px;
+line-height: 150%;
+color: #2B283A;
+
+}
