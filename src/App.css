@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+width: 100vw;
+height: 55px;
+background-color: #F55A5A;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.header-text {
+    font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+letter-spacing: -0.075em;
+color: #FFFFFF;
+}
+
+.header-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+}
